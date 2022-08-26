@@ -1,5 +1,5 @@
 body {
-   background: #c5c5b4;
+   background: #86c54b;
    margin: 0;
    padding: 0;
 }
@@ -8,7 +8,7 @@ h1 {
 }
 .caixa1 {
   position: relative;
-  background: rgb(192, 65, 135);
+  background: rgb(104, 248, 68);
   width: 200px;
   height: 200px;
   color: #FFFFFF;
@@ -16,7 +16,7 @@ h1 {
 }
 .caixa2 {
   position: relative;
-  background: rgb(197, 97, 228);
+  background: rgb(247, 70, 202);
  width: 200px;
  height: 200px;
  color: #FFFFFF;
@@ -27,7 +27,7 @@ h1 {
    position: absolute;
    width: 100%;
    height: 45px;
-   background: rgb(17, 17, 5);
+   background: rgb(3, 1, 5);
    top: 0;
    left: 0;
 }
@@ -53,17 +53,17 @@ li a:hover {
    background: rgb(248, 248, 248);
    color: rgb(0, 0, 0);
 }
-#leao2 {
+#bomba {
    width: 10%;
 }
-.leao {
+.boxbomba {
    position: absolute;
-   width: 90%;
-   height: 150px ;
-   background: rgb(4, 0, 7);
+   width: 90% ;
+   height: 200px ;
+   background: rgb(5, 70, 19);
    top: 50px;
    left: 0;
-   border-color: rgb(222, 236, 18);
+   border-color: rgb(255, 255, 255);
    border-width: 20px;
    border-style: solid;
    margin: 20px;
@@ -73,10 +73,10 @@ li a:hover {
 
 }
 .rodape {
-   position: fixed;
+   position: absolute;
    bottom: 0;
    background: black;
-   color: burlywood;
+   color: rgb(105, 179, 114);
    width: 100%;
    left: 0;
    height: 40px;
@@ -88,23 +88,18 @@ li a:hover {
    top: 45px;
 
 }
-h1 {
-   position: absolute;
-   bottom: 83%;
-}
-.leao60 {
+.ray17 {
    position: absolute;
    width: 90%;
-   height: 150px ;
-   background: rgb(4, 0, 7);
+   height: 200px;
+   background: rgb(7, 94, 29);
    top: 400px;
    left: 0;
-   border-color: rgb(222, 236, 18);
+   border-color: rgb(243, 243, 248);
    border-width: 20px;
    border-style: solid;
    margin: 20px;
    padding: 20px;
    display: flex;
    justify-content: start;
-
 }
